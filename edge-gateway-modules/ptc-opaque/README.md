@@ -6,7 +6,7 @@
 - Install Docker in your development machine from [docker.com](https://www.docker.com/products/docker-desktop)
 - In your development machine run the following command: _"docker login -u <YOUR_DOCKER_USER_NAME> -p <YOUR_DOCKER_PASSWORD>"_
 
-## Build and publish modbus OPAQUE module
+## Build and publish OPAQUE module
 1. Copy the [provided solution](https://github.com/iot-for-all/iotc-modbus-kepware-iotedge-gateway/tree/main/edge-gateway-modules/ptc-opaque) to your development machine and open it in VSCode
 2. Install vscode extension [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
 3. in [.env file](https://github.com/iot-for-all/iotc-modbus-kepware-iotedge-gateway/blob/main/edge-gateway-modules/ptc-opaque/.env#L2-L4) replace all instance of:
