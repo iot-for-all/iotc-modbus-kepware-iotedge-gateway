@@ -144,10 +144,13 @@
 15. On task bar right click on **KEPServer** icon and select **OPC UA Configuration**
 
       [<img src=./assets/26_ptc_opcua_open.png heigth="20%" width="20%">](/assets/26_ptc_opcua_open.png)
-16. On OPC UA Configuration Manager select **Server Endpoints** then check the **Enabled** box plus note the OPC UA ports
+16. On OPC UA Configuration Manager select **Server Endpoints** then check the **Enabled** box and note the OPC UA ports, plus **Edit** and set **Security** to **None** if it is set to anything other than None
 
 	  [<img src=./assets/28_ptc_opcua_config.png heigth="50%" width="50%">](/assets/28_ptc_opcua_config.png)
-17. Open ports for KEPServerEx configuration API and OPC UA connections
+17. In the Kepserver Config tool, right click on **Project**, select **OPCUA**, set **Allow anonymous login** to **Yes**, and click on **OK** button
+
+	  [<img src=./assets/30_ptc_opcua_config_security.png heigth="50%" width="50%">](/assets/30_ptc_opcua_config_security.png)
+18. Open ports for KEPServerEx configuration API and OPC UA connections
       ```shell
       	# Open KEPServerEX configuration API port noted in step # 13 (default should be 57412)
       	# Rule priority, between 100 (highest priority) and 4096 (lowest priority). Must be unique for each rule in the collection.

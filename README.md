@@ -16,10 +16,9 @@ In this pattern IoT Edge Gateway is the only device known in the cloud. All capa
 5. Confim that IoT Edge device status shows _"Provisioned"_ in your IoT Central application
     
     [<img src=./assets/02_device_status.png heigth="60%" width="60%">](/assets/02_device_status.png)
-6. [IoT Edge Gateway commands to handle modbus CRUD](commands.md)
-7. [Configure KEPServerEX and connect](https://github.com/iot-for-all/iotc-modbus-kepware-iotedge-gateway/tree/main/app/README.md)
+6. [Configure KEPServerEX and connect](https://github.com/iot-for-all/iotc-modbus-kepware-iotedge-gateway/tree/main/app/README.md)
     - First call **file** command to set the configuration
     - then call **connect** command to get IoT Edge Gateway connected to KEPServerEX
-8. click on IoT Edge Gateway device and select _"Raw data"_ tab and verify the telemetry is flowing
+7. click on IoT Edge Gateway device and select _"Raw data"_ tab and verify the telemetry is flowing
 
     [<img src=./assets/03_device_rawdata.png heigth="60%" width="60%">](/assets/03_device_rawdata.png)
